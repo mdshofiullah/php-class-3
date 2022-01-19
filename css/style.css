@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 .col-1{width: 8.33%}
@@ -27,6 +29,21 @@
     float: left;
     border: 1px solid gray;
 }
+.container
+{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
 .h-200{height: 200px}
 .h-50{height: 50px}
 .h-600{height: 600px}
